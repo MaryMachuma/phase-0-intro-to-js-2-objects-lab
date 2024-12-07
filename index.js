@@ -1,5 +1,5 @@
 // Write your solution in this file!
-const employee = {"name":"calvince",
+const employee = {"name":"mary",
     "streetAddress":"2nd floor"
 }
 
@@ -23,5 +23,5 @@ function deleteFromEmployeeByKey(employee,key){
 function destructivelyDeleteFromEmployeeByKey(employee,key){
     delete employee[key]
     return employee
-    
+
 }
